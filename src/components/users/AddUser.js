@@ -7,7 +7,8 @@ import Wrapper from "../helpers/Wrapper";
 import UserData from "./UserData";
 
 const AddUser = (props) => {
-  
+  //useState was implementing controlled input components
+  //uncontrolled input components
   const nameInputRef = useRef(); //return a value which allows us to to work with that ref later,
   // allows us to work with the element to which we are going to connect with
   const ageInputRef = useRef();
